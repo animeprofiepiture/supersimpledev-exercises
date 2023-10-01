@@ -1,0 +1,76 @@
+div {
+  margin-top: 20px;
+}
+
+.back-button {
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.search-result {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.next-button {
+  margin-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.stretch {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 20px 8px;
+  cursor: pointer;
+  transition: padding 1s;
+}
+
+.stretch:hover {
+  padding: 20px 50px 20px;
+}
+
+.shadow {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 20px 8px;
+  cursor: pointer;
+  transition: box-shadow 300ms;
+}
+
+.shadow:hover {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.shadow:active {
+  margin-top: 1px;
+  margin-left: 1px;
+  box-shadow: none;
+}
+
+.number {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 20px 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  transition: padding 0.15s, margin 0.15s;
+}
+
+.number:hover {
+  padding: 8px 30px 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
