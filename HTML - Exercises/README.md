@@ -2,4 +2,4 @@
 
 **Learning HTML**
 
-Supersimpledev Course Exercises _Avid_
+Supersimpledev Course Exercises
