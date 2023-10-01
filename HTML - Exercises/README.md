@@ -1,7 +1,5 @@
 # Codes
 
-__Learning HTML__
+**Learning HTML**
 
-Supersimpledev Course Exercises
-
-
+Supersimpledev Course Exercises _Avid_
