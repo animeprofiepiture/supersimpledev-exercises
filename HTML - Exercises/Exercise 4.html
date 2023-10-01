@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Exercise 4</title>
+
+    <style>
+      div {
+        margin-top: 20px;
+      }
+
+      .back-button {
+        margin-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+      }
+
+      .search-result {
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 18px;
+      }
+
+      .next-button {
+        margin-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+      }
+
+      .stretch {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding: 8px 20px 8px;
+        cursor: pointer;
+        transition: padding 1s;
+      }
+
+      .stretch:hover {
+        padding: 20px 50px 20px;
+      }
+
+      .shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding: 8px 20px 8px;
+        cursor: pointer;
+        transition: box-shadow 300ms;
+      }
+
+      .shadow:hover {
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+      }
+
+      .shadow:active {
+        margin-top: 1px;
+        margin-left: 1px;
+        box-shadow: none;
+      }
+
+      .number {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding: 8px 20px 8px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition: padding 0.15s, margin 0.15s;
+      }
+
+      .number:hover {
+        padding: 8px 30px 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="back-button">Back</button>
+
+    <a class="search-result" href="https://google.com"> 1 </a>
+    <a class="search-result" href="https://google.com"> 2 </a>
+    <a class="search-result" href="https://google.com">3</a>
+    <a class="search-result" href="https://google.com">4</a>
+    <a class="search-result" href="https://google.com">5</a>
+    <button class="next-button">Next</button>
+
+    <div>
+      <button class="stretch">Stretch</button>
+    </div>
+
+    <div>
+      <button class="shadow">Shadow</button>
+    </div>
+
+    <div>
+      <button class="number">One</button>
+      <button class="number">Two</button>
+      <button class="number">Three</button>
+    </div>
+  </body>
+</html>
