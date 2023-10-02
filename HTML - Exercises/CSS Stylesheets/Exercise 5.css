@@ -1,0 +1,23 @@
+div {
+  margin: 0 1rem;
+}
+
+.font-exercise {
+  font-family: tahoma;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sales-ad {
+  font-size: 2rem;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.due-date {
+  font-size: 1.5rem;
+  font-family: arial;
+  color: red;
+  font-style: italic;
+  margin-top: 4px;
+}
