@@ -1,11 +1,8 @@
-div {
-  margin: 0 1rem;
-}
-
 .font-exercise {
   font-family: tahoma;
   font-size: 2rem;
   font-weight: bold;
+  margin: 0 1rem;
 }
 
 .sales-ad {
