@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-HTML & CSS Course Exercises for the Course By Supersimpledev
-</title>
+
+  HTML & CSS Course Exercises for the Course By Supersimpledev
+  
 </head>
 <body>
   <div class="course-ad">
