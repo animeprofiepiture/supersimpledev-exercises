@@ -46,8 +46,24 @@
 .apple-ad,
 .second-ad {
   text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 .link-to-site {
   display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: arial;
+}
+.second-ad {
+  font-size: 1.1rem;
+  margin-bottom: 1.7rem;
+}
+
+.macbook-ad {
+  font-family: arial;
+  font-weight: bold;
+  margin: 2rem;
   text-align: center;
 }
