@@ -64,6 +64,13 @@
 .macbook-ad {
   font-family: arial;
   font-weight: bold;
-  margin: 2rem;
   text-align: center;
+  margin: 2rem;
+}
+.purchase-button {
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  padding: 8px 15px;
 }
