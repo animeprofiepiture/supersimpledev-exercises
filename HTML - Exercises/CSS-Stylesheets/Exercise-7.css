@@ -1,0 +1,15 @@
+div {
+  display: flex;
+}
+.first-image {
+  width: 200px;
+  border-radius: 10px;
+  margin: 2rem;
+}
+.second-image {
+  margin: 2rem;
+  height: 200px;
+  width: 200px;
+}
+.third-image {
+}
