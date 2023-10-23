@@ -67,6 +67,22 @@
   text-align: center;
   margin: 2rem;
 }
+#first-item {
+  color: red;
+  margin: 0.5rem;
+}
+#second-item {
+  font-size: 1.5rem;
+  margin: 0;
+}
+#third-item {
+  font-size: 3rem;
+  margin: 0;
+}
+#fourth-item {
+  font-weight: 400;
+  color: grey;
+}
 .purchase-button {
   border: none;
   border-radius: 20px;

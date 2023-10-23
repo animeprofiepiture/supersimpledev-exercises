@@ -1,5 +1,5 @@
 div {
-  display: flex;
+  display: inline-block;
 }
 .first-image {
   width: 200px;
@@ -10,6 +10,20 @@ div {
   margin: 2rem;
   height: 200px;
   width: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 .third-image {
+  margin: 2rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.first-searchbar {
+  padding: 0.6rem;
+  border: 1.5px grey solid;
+  border-radius: 6px;
 }
