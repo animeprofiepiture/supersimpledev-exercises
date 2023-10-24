@@ -1,4 +1,4 @@
-div {
+.image {
   display: inline-block;
 }
 .first-image {
@@ -23,7 +23,18 @@ div {
 }
 
 .first-searchbar {
+  margin: 2rem;
   padding: 0.6rem;
   border: 1.5px grey solid;
   border-radius: 6px;
+}
+
+.google-searchbar {
+  border: none;
+  border-radius: 30px;
+  padding: 12px 15px;
+  width: 500px;
+  font-size: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin: 2rem;
 }
