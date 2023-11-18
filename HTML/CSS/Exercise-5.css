@@ -91,8 +91,42 @@
   padding: 8px 15px;
 }
 
-.tweet {
+.stocks-info {
   font-family: Arial;
 }
+#total-amount {
+  font-size: 2rem;
+}
+#currency {
+  color: grey;
+}
+#increase {
+  color: green;
+}
+#time {
+  color: grey;
+}
+#decrease {
+  color: red;
+}
 
-/* TODO: Write CSS of other Exercises*/
+.tweet {
+  font-family: arial;
+  margin: 2rem;
+}
+#tweet-author {
+  font-weight: bold;
+}
+#author-id {
+  color: grey;
+}
+#tweet-body {
+  width: 34rem;
+}
+#tweet-second-part {
+  font-weight: bold;
+}
+#link-to-author {
+  text-decoration: none;
+  font-weight: 400;
+}

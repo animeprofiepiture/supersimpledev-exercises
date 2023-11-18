@@ -1,4 +1,4 @@
-0<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
 
     <title>Exercise 5</title>
 
-    <link rel="stylesheet" href="CSS-Stylesheets/Exercise-5.css" />
+    <link rel="stylesheet" href="CSS/Exercise-5.css" />
   </head>
   <body>
     <div class="font-exercise">
@@ -43,37 +43,30 @@
       <button class="purchase-button">Buy</button>
     </div>
 
-    <!--TODO: Separate the CSS from the HTML file-->
-    <!--FIXME: Separation of Concerns-->
-
-    <div style="font-family: Arial">
+    <div class="stocks-info">
       <p>
-        <span style="font-size: 2rem">1&comma;049&period;61</span>
-        <span style="color: grey">USD</span>
+        <span id="total-amount">1&comma;049&period;61</span>
+        <span id="currency">USD</span>
       </p>
-      <p style="color: green">&plus;18&period;05 (1&period;75&percnt;) today</p>
+      <p id="increase">&plus;18&period;05 (1&period;75&percnt;) today</p>
       <p>
-        <span style="color: grey">After hours 1&comma;048&period;00</span>
-        <span style="color: red">
-          &minus;1&period;61 (0&period;15&percnt;)
-        </span>
+        <span id="time">After hours 1&comma;048&period;00</span>
+        <span id="decrease"> &minus;1&period;61 (0&period;15&percnt;) </span>
       </p>
     </div>
 
-    <div class="tweet" style="margin: 2rem">
+    <div class="tweet">
       <p>
-        <span style="font-weight: bold">freeCodeCamp&period;org</span>
-        <span style="color: grey">@freeCodeCamp 1h</span>
+        <span id="tweet-author">freeCodeCamp&period;org</span>
+        <span id="author-id">@freeCodeCamp 1h</span>
       </p>
-      <p style="width: 34rem">
+      <p id="tweet-body">
         As a web developer, you'll want to make your projects easy to use and
         navigate around&period;
       </p>
-      <p style="font-weight: bold">
+      <p id="tweet-second-part">
         Here
-        <a href="`" style="text-decoration: none; font-weight: 400"
-          >@chp&UnderBar;it</a
-        >
+        <a href="`" id="link-to-author">@chp&UnderBar;it</a>
         outlines the top skills new developers should have
       </p>
     </div>
