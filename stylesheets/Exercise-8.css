@@ -1,6 +1,27 @@
+div {
+  margin: 1rem;
+}
+
 #name-box {
-  display: inline-block;
+  display: block;
+  margin-bottom: 4px;
 }
 #email-box {
+  display: block;
+}
+
+.survey {
+  width: 200px;
   display: inline-block;
+  vertical-align: middle;
+}
+
+.google-searchbar {
+  border: none;
+  border-radius: 30px;
+  padding: 12px 15px;
+  width: 500px;
+  font-size: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin: 2rem;
 }
