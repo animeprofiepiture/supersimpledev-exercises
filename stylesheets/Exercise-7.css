@@ -2,86 +2,86 @@
   display: inline-block;
 }
 .first-image {
-  width: 200px;
   border-radius: 10px;
   margin: 2rem;
+  width: 200px;
 }
 .second-image {
-  margin: 2rem;
   height: 200px;
-  width: 200px;
+  margin: 2rem;
   object-fit: cover;
   object-position: center;
+  width: 200px;
 }
 .third-image {
-  margin: 2rem;
-  height: 200px;
-  width: 200px;
   border-radius: 100px;
+  height: 200px;
+  margin: 2rem;
   object-fit: cover;
   object-position: center;
+  width: 200px;
 }
 
 .first-searchbar {
+  border-radius: 6px;
+  border: 1.5px grey solid;
   margin: 2rem;
   padding: 0.6rem;
-  border: 1.5px grey solid;
-  border-radius: 6px;
 }
 
 .google-searchbar {
-  border: none;
   border-radius: 30px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  margin: 2rem;
   padding: 12px 15px;
   width: 500px;
-  font-size: 16px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-  margin: 2rem;
 }
 
 .email-field {
-  margin: 2rem;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
 }
 .email-inputbox {
-  border: 2px solid black;
   border-radius: 4px;
-  width: 400px;
+  border: 2px solid black;
   height: 25px;
+  width: 400px;
 }
 .join-button {
-  border: none;
-  border-radius: 20px;
   background-color: blue;
+  border-radius: 20px;
+  border: none;
   color: white;
-  width: 400px;
-  height: 40px;
   font-size: 16px;
+  height: 40px;
+  width: 400px;
 }
 
 .tweet {
   margin: 2rem;
 }
 .tweet-image {
-  height: 50px;
-  width: 50px;
-  object-fit: cover;
   border-radius: 50px;
+  height: 50px;
+  object-fit: cover;
   vertical-align: middle;
+  width: 50px;
 }
 .tweet-box {
-  width: 300px;
   border: none;
+  font-size: 15px;
   height: 50px;
   vertical-align: middle;
-  font-size: 15px;
+  width: 300px;
 }
 .tweet-button {
-  border: none;
   background-color: dodgerblue;
+  border-radius: 30px;
+  border: none;
   color: white;
+  font-weight: bold;
   height: 34px;
   width: 75px;
-  border-radius: 30px;
-  font-weight: bold;
 }

@@ -1,24 +1,29 @@
+div {
+  margin: 2rem;
+}
+/*Font Exercise*/
 .font-exercise {
   font-family: tahoma;
   font-size: 2rem;
   font-weight: bold;
-  margin: 0 1rem;
 }
 
+/*Sales AD*/
 .sales-ad {
-  font-size: 2rem;
   font-family: arial;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 0;
 }
 .due-date {
-  font-size: 1.5rem;
-  font-family: arial;
   color: red;
+  font-family: arial;
+  font-size: 1.5rem;
   font-style: italic;
   margin-top: 4px;
 }
 
+/*Course AD*/
 .course-ad {
   font-family: verdana;
 }
@@ -35,37 +40,39 @@
   width: 18rem;
 }
 .get-started-button {
-  border: none;
-  border-radius: 5px;
   background-color: green;
+  border-radius: 5px;
+  border: none;
   color: white;
   font-weight: bold;
   padding: 8px 14px;
 }
 
+/*Apple AD*/
 .apple-ad,
 .second-ad {
-  text-align: center;
   font-family: Arial;
-  font-weight: bolder;
   font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
 }
 .link-to-site {
   display: block;
+  font-family: arial;
   text-align: center;
   text-decoration: none;
-  font-family: arial;
 }
 .second-ad {
   font-size: 1.1rem;
   margin-bottom: 1.7rem;
 }
 
+/*MacBook AD*/
 .macbook-ad {
   font-family: arial;
   font-weight: bold;
-  text-align: center;
   margin: 2rem;
+  text-align: center;
 }
 #first-item {
   color: red;
@@ -84,13 +91,14 @@
   color: grey;
 }
 .purchase-button {
-  border: none;
-  border-radius: 20px;
   background-color: blue;
+  border-radius: 20px;
+  border: none;
   color: white;
   padding: 8px 15px;
 }
 
+/*Stocks Info*/
 .stocks-info {
   font-family: Arial;
 }
@@ -110,6 +118,7 @@
   color: red;
 }
 
+/*Tweet*/
 .tweet {
   font-family: arial;
   margin: 2rem;
@@ -127,6 +136,6 @@
   font-weight: bold;
 }
 #link-to-author {
-  text-decoration: none;
   font-weight: 400;
+  text-decoration: none;
 }

@@ -3,6 +3,7 @@ div {
   margin-bottom: 20px;
 }
 
+/*Uber button*/
 .uber-button {
   background-color: black;
   border: none;
@@ -12,6 +13,7 @@ div {
   width: 110px;
 }
 
+/*Github button*/
 .github-button {
   background-color: rgb(46, 164, 79);
   border-radius: 6px;
@@ -24,6 +26,7 @@ div {
   width: 90px;
 }
 
+/*Bootstrap buttons*/
 .getstarted-button,
 .download-button {
   background-color: rgb(121, 82, 179);
@@ -45,6 +48,7 @@ div {
   color: rgb(108, 117, 125);
 }
 
+/*LinkedIn buttons*/
 .apply-button,
 .save-button {
   background-color: rgb(10, 102, 194);
@@ -68,6 +72,7 @@ div {
   width: 90px;
 }
 
+/*Amazon buttons & Page*/
 .amazon-button,
 .buy-button {
   background-color: rgb(255, 216, 20);
