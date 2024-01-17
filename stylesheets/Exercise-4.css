@@ -1,0 +1,73 @@
+div {
+  margin-top: 20px;
+}
+
+/*Links & Buttons*/
+.back-button,
+.next-button {
+  font-size: 16px;
+  margin-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.search-result {
+  font-size: 18px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/*Stretch Button*/
+.stretch {
+  background-color: green;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 20px 8px;
+  transition: padding 1s;
+}
+
+.stretch:hover {
+  padding: 20px 50px 20px;
+}
+
+/*Shadow Button*/
+.shadow {
+  background-color: green;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 20px 8px;
+  transition: box-shadow 300ms;
+}
+
+.shadow:hover {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.shadow:active {
+  box-shadow: none;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+/*Button Numbers*/
+.number {
+  background-color: green;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 8px 20px 8px;
+  transition: padding 0.15s, margin 0.15s;
+}
+
+.number:hover {
+  padding: 8px 30px 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

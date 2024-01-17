@@ -1,0 +1,141 @@
+div {
+  margin: 2rem;
+}
+/*Font Exercise*/
+.font-exercise {
+  font-family: tahoma;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*Sales AD*/
+.sales-ad {
+  font-family: arial;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.due-date {
+  color: red;
+  font-family: arial;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/*Course AD*/
+.course-ad {
+  font-family: verdana;
+}
+.course-title {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 0.3rem;
+}
+.course-description {
+  color: grey;
+  margin-top: 0;
+}
+.course-benifit {
+  width: 18rem;
+}
+.get-started-button {
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 14px;
+}
+
+/*Apple AD*/
+.apple-ad,
+.second-ad {
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.link-to-site {
+  display: block;
+  font-family: arial;
+  text-align: center;
+  text-decoration: none;
+}
+.second-ad {
+  font-size: 1.1rem;
+  margin-bottom: 1.7rem;
+}
+
+/*MacBook AD*/
+.macbook-ad {
+  font-family: arial;
+  font-weight: bold;
+  margin: 2rem;
+  text-align: center;
+}
+#first-item {
+  color: red;
+  margin: 0.5rem;
+}
+#second-item {
+  font-size: 1.5rem;
+  margin: 0;
+}
+#third-item {
+  font-size: 3rem;
+  margin: 0;
+}
+#fourth-item {
+  font-weight: 400;
+  color: grey;
+}
+.purchase-button {
+  background-color: blue;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+}
+
+/*Stocks Info*/
+.stocks-info {
+  font-family: Arial;
+}
+#total-amount {
+  font-size: 2rem;
+}
+#currency {
+  color: grey;
+}
+#increase {
+  color: green;
+}
+#time {
+  color: grey;
+}
+#decrease {
+  color: red;
+}
+
+/*Tweet*/
+.tweet {
+  font-family: arial;
+  margin: 2rem;
+}
+#tweet-author {
+  font-weight: bold;
+}
+#author-id {
+  color: grey;
+}
+#tweet-body {
+  width: 34rem;
+}
+#tweet-second-part {
+  font-weight: bold;
+}
+#link-to-author {
+  font-weight: 400;
+  text-decoration: none;
+}

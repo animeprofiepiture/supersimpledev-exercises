@@ -1,0 +1,155 @@
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  transition: opacity 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+/*Uber button*/
+.uber-button {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.uber-button:active {
+  opacity: 0.5;
+}
+
+/*Github button*/
+.github-button {
+  background-color: rgb(46, 164, 79);
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  width: 90px;
+}
+
+.github-button:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+/*Bootstrap buttons*/
+.getstarted-button,
+.download-button {
+  background-color: rgb(121, 82, 179);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  margin-right: 10px;
+  width: 110px;
+}
+
+.download-button {
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(108, 117, 125);
+}
+
+.getstarted-button:hover {
+  background-color: rgb(91, 56, 142);
+}
+
+.download-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+/*LinkedIn buttons*/
+.apply-button,
+.save-button {
+  background-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  margin-right: 10px;
+  width: 240px;
+}
+
+.save-button {
+  background-color: white;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(10, 102, 194);
+  width: 90px;
+}
+
+.apply-button:hover {
+  background-color: rgb(14, 78, 142);
+}
+
+.save-button:hover {
+  background-color: rgb(202, 203, 212);
+  border-width: 2px;
+}
+
+/*Amazon buttons & Page*/
+.amazon-button,
+.buy-button {
+  background-color: rgb(255, 216, 20);
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  height: 33px;
+  margin-right: 10px;
+  width: 120px;
+}
+
+.buy-button {
+  background-color: rgb(255, 164, 28);
+}
+
+.amazon-button:hover {
+  background-color: rgb(236, 202, 32);
+}
+.amazon-button:active {
+  opacity: 0.6;
+}
+
+.buy-button:hover {
+  background-color: rgb(224, 145, 27);
+}
+.buy-button:active {
+  opacity: 0.6;
+}
+
+.link {
+  color: rgb(0, 113, 133);
+}
+.link:hover {
+  color: rgb(220, 85, 13);
+}
+
+.cart {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}

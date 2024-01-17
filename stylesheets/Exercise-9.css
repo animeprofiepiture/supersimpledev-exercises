@@ -1,0 +1,117 @@
+div {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin-top: 0;
+}
+button {
+  margin-right: 3px;
+}
+.square,
+.circle {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  display: inline-block;
+}
+.circle {
+  background-color: green;
+  border-radius: 40px;
+}
+
+.survey {
+  border: 1px solid grey;
+  padding: 20px 15px;
+  width: 300px;
+  margin: 1rem;
+}
+
+.youtube-music {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 90px;
+  width: 360px;
+  color: white;
+  background-color: black;
+  padding: 20px 20px;
+}
+.first-line {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.second-line {
+  color: rgb(176, 166, 166);
+}
+
+.tweet {
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 14px 14px;
+}
+.tweet-image {
+  border-radius: 50px;
+  height: 50px;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 50px;
+}
+.tweet-box {
+  border: none;
+  margin-left: 10px;
+  font-size: 15px;
+  height: 50px;
+  vertical-align: middle;
+  width: 300px;
+}
+.tweet-button {
+  background-color: dodgerblue;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 34px;
+  margin-left: 10px;
+  width: 75px;
+}
+
+.profiles {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.mutual-friends {
+  color: rgb(100, 100, 100);
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
